@@ -1,0 +1,26 @@
+{
+  "name": "client-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/web3.js": "^1.48.0",
+    "borsh": "^0.7.0",
+    "buffer": "^6.0.3",
+    "yaml": "^2.1.1",
+    "mz": "^2.7.0"
+
+  }
+}
